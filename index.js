@@ -8,7 +8,7 @@ $(document).ready(function() {
     direction: "alternate",
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: "easeInOutSine",
-    duration: 50,
+    duration: 1000,
     begin: function(anim) {
       $(".portfolio").css("display", "none");
     }
