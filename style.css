@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+svg {
+  width: 20em;
+}
+
+.profile {
+  border: 1px black solid;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 25vw;
+  height: 7vh;
+}
+
+.portfolio {
+  text-align: center;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.card {
+  position: relative;
+  display: none;
+}
+
+.description {
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+.main-body{
+  padding: 50px;
+}
+
+.jobs{
+  position: fixed;
+  bottom: 100px;
+}
+
+.ts3stats{
+  font-size: 20px;
+}
+
+.job-icons{
+  margin-right: 10px;
+}
+
+.escalon, .d2d-img{
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 576px) { 
+  .profile {
+    border: 1px black solid;
+    overflow: hidden;
+    width: 70vw;
+    height: 20vh;
+  }
+
+  .card-img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .description{
+    margin-left: -10vw;
+  }
+ }
